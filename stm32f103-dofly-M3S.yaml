@@ -84,7 +84,7 @@ default_projects:
     target_path_offset: rt-thread
   project_description: ''
   project_name: ''
-  project_type: rt-thread|@full|@4.0.2
+  project_type: rt-thread|@full|@latest
 docs:
 - category: manual
   file: documents/manuals/CD00171190.pdf

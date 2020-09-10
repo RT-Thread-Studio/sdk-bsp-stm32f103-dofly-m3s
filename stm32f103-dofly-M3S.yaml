@@ -50,10 +50,8 @@ default_projects:
     - project.uvproj
     - project.uvprojx
     - README.md
-    - rt-thread
     - rtconfig.h
     - rtconfig.py
-    - rtconfig.pyc
     - rtconfig_preinc.h
     - SConscript
     - SConstruct
@@ -80,7 +78,7 @@ default_projects:
     package_type: RT-Thread_Source_Code
     package_vendor: ''
     package_version: latest
-    source_path_offset: ''
+    source_path_offset: rt-thread
     target_path_offset: rt-thread
   project_description: ''
   project_name: ''
@@ -94,12 +92,12 @@ docs:
   title: STM32F103xE Datasheet
 example_projects: []
 features:
-- MCU：STM32F103ZET6，主频 72MHz，512KB FLASH ，64KB RAM
-- 外部 RAM：型号24c02，2KB
-- 外部 FLASH：型号W25Q64，8MB
-- LED：2个，LED2（红色，PE5），LED3（红色，PB5）
-- 按键：4个，S1（PE4），S2（PE3），S3（PE2），S4（兼具唤醒功能，PA0）
-- 常用接口：USB 转串口、SD 卡接口、RS232 接口、LCD 接口、nRF24L01接口等
+- "MCU：STM32F103ZET6，主频 72MHz，512KB FLASH ，64KB RAM"
+- "外部 RAM：型号24c02，2KB"
+- "外部 FLASH：型号W25Q64，8MB"
+- "LED：2个，LED2（红色，PE5），LED3（红色，PB5）"
+- "按键：4个，S1（PE4），S2（PE3），S3（PE2），S4（兼具唤醒功能，PA0）"
+- "常用接口：USB 转串口、SD 卡接口、RS232 接口、LCD 接口、nRF24L01接口等"
 - 调试接口，标准 JTAG/SWD
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'

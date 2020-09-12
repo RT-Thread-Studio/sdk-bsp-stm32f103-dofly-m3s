@@ -92,6 +92,14 @@ docs:
   title: STM32F103xE Datasheet
 example_projects: []
 features:
+- "MCU: STM32F103ZET6, 72MHz, 512KB FLASH, 64KB RAM"
+- "External RAM: 24c02, 2KB"
+- "External FLASH: W25Q64, 8MB"
+- "LED: LED2(R, PE5), LED3(R, PB5)"
+- "Buttons: S1(PE4), S2（PE3, S3（PE2, S4（Wake-up，PA0）"
+- "Interface: USB-Serial、SD Card、RS232、LCD、nRF24L01"
+- "Debug: JTAG/SWD"
+features:
 - "MCU：STM32F103ZET6，主频 72MHz，512KB FLASH ，64KB RAM"
 - "外部 RAM：型号24c02，2KB"
 - "外部 FLASH：型号W25Q64，8MB"
@@ -102,4 +110,4 @@ features:
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2

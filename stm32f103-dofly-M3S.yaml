@@ -1,6 +1,6 @@
 board:
-  buy_url_cn: https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1022655459.10.44ae4d22Wa8UIo&id=44835368405/
-  buy_url_global: https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1022655459.10.44ae4d22Wa8UIo&id=44835368405/
+  buy_url_cn: https://item.taobao.com/item.htm?id=44835368405
+  buy_url_global: https://item.taobao.com/item.htm?id=44835368405
   debug_interface: SWD
   debugger: ST-LINK
   description_en: STM32F103 Dofly M3S is a development board based on ARM Cortex-M3 core launched by Dofly. The highest main frequency is 72Mhz. The development board has rich on-board resources and can give full play to the chip performance of STM32F103.
